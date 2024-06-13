@@ -42,8 +42,8 @@ def getStats(name):
     elif name == "BOSS_SHADOWGUARDIAN":
         HEALTH = 8600
         AITYPE = "BOSS_SHADOWGUARDIAN"
-        SIZEX = 8
-        SIZEY = 8
+        SIZEX = 16
+        SIZEY = 16
     elif name == "SHADOWSTARSUMMON":
         HEALTH = 1 # Auto killed when scene switches from boss
         AITYPE = "SHADOWSTARSUMMON"
