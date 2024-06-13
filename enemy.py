@@ -389,6 +389,7 @@ class Enemy(pygame.sprite.Sprite):
             self.dead = True
     def update(self):
         if self.HP:
+            self.HP = 0
             self.AI()
             self.move()
             self.death()
