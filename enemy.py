@@ -383,6 +383,7 @@ class Enemy(pygame.sprite.Sprite):
             # self.image.fill('red')
     def death(self):
         if self.HP <= 0:
+            self.HP = 0
             self.projectile = 0
             self.rect.x = -99999 # Kill
             self.dead = True
